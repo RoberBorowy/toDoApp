@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',
+        sans serif;
+
+
+
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: radial-gradient(circle at 50% 41.55%, #93d9da 0, #92d9df 8.33%, #93d9e4 16.67%, #94d8e8 25%, #96d7ec 33.33%, #99d6ef 41.67%, #9dd5f2 50%, #a2d4f4 58.33%, #a7d2f6 66.67%, #add1f7 75%, #b4cff8 83.33%, #bacef7 91.67%, #c1ccf7 100%);
+}
+
+
+.wrapper {
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.content {
+    width: 500px;
+    min-height: 50vh;
+    background-color: #ffff;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.header_title {
+    font-weight: lighter;
+    padding: 20px 0 20px 0;
+}
+
+.inputField {
+    display: flex;
+}
+
+.input {
+    width: 300px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.error {
+    display: inline-block;
+    margin: 15px auto;
+    text-align: center;
+    color: red;
+    visibility: hidden;
+}
+
+
+
+
+.btn {
+    width: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+
+
+.btn i {
+
+    font-size: 30px;
+    color: #94d8e8
+}
+
+.todo_list {
+    padding-top: 30px;
+
+}
+
+.todo_list li {
+
+    display: block;
+    position: relative;
+    display: flex;
+    padding-left: 25px;
+    font-size: 18px;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    width: 80%;
+    margin-left: 25px;
+    line-height: 45px;
+    list-style: none;
+
+}
+.icon {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    cursor: pointer;
+    padding: 15px;
+    background-color: #ffff;
+    border: none;
+
+
+}
+.todo_list li i {
+    position: absolute;
+    top: 14%;
+    right: 26%;
+    color: #1181a7;
+    font-size: 20px;
+    line-height: center;
+    text-align: center;
+   
+  
+   
+}
+
+
+
+.delete {
+    display: block;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #94d8e8;
+    margin: 150px auto 20px auto;
+    background-color: white;
+    cursor: pointer;
+    transition: .3s ease;
+
+
+
+}
+
+.delete:hover {
+    background-color: #99d6ef;
+    color: white;
+}
+
+ .far {
+    pointer-events: none;
+} 
